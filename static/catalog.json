@@ -8,6 +8,11 @@
       "tag": "healpix"
     },
     {
+      "title": "converted-sentinel-2-l1c-multires [mean-l20-l12 L20-L12] S2C MSIL1C 20250412T101041 R022 T32TPS 20250412T134850 measurements/reflectance",
+      "url": "https://data.grid4earth.eu/converted/sentinel-2-l1c-multires/mean-l20-l12/S2C_MSIL1C_20250412T101041_N0511_R022_T32TPS_20250412T134850.zarr/measurements/reflectance",
+      "tag": "healpix"
+    },
+    {
       "title": "converted-sentinel-2-l1c-multires [mean-l20-l12 L20-L12] S2C MSIL1C 20250514T104641 R051 T31UDQ 20250514T143130 measurements/reflectance",
       "url": "https://data.grid4earth.eu/converted/sentinel-2-l1c-multires/mean-l20-l12/S2C_MSIL1C_20250514T104641_N0511_R051_T31UDQ_20250514T143130.zarr/measurements/reflectance",
       "tag": "healpix"
