@@ -16,10 +16,16 @@ Zoom in on Paris: with "Pick the level from the zoom" on (Variable card), the le
 
 ## Dataset list ("Open dataset")
 
-`static/catalog.json` lists GRID4EARTH data instead of Gridlook's default examples: one example store per bucket
-folder (`converted/sentinel-2-l1c`, `converted/sentinel-2-l2a`, `converted/sentinel-2-l1c-multires/mean-l20-l12`),
-each opened in Gridlook and checked to plot before it was added. The list lives in `make_gridlook_catalog.py`;
-regenerate with `python make_gridlook_catalog.py static/catalog.json`.
+`static/catalog.json` lists GRID4EARTH data instead of Gridlook's default examples: one example store per STAC
+collection except the mirrors (same list as grid4earth.eu/gridlook, GRID4EARTH/gridlook#2), each opened in Gridlook
+and checked to plot before it was added. The list lives in `make_gridlook_catalog.py`; regenerate with
+`python make_gridlook_catalog.py static/catalog.json`.
+
+## Default dataset
+
+Opened without a dataset in the URL, this build shows ERA5 2 m temperature
+(`auxiliary/reanalysis-era5-complete`), as grid4earth.eu/gridlook does. This is the only change to the #235 source:
+`DEFAULT_DATASET` and a default `varname` in `src/views/HashGlobeView.vue`, same as GRID4EARTH/gridlook#2.
 
 ## Update
 
@@ -27,7 +33,7 @@ Rebuild the pull request and replace the files:
 
 ```bash
 npm ci && npx vite build
-rsync -a --delete --exclude testdata --exclude '*.map' --exclude .git --exclude README.md --exclude screenshots --exclude .nojekyll dist/ <this repository>/
+rsync -a --delete --exclude testdata --exclude '*.map' --exclude .git --exclude README.md --exclude screenshots --exclude .nojekyll --exclude make_gridlook_catalog.py dist/ <this repository>/
 ```
 
 Delete this repository once #235 is merged and deployed at <https://grid4earth.eu/gridlook/>.
