@@ -19,20 +19,31 @@ import sys
 
 GATEWAY = "https://data.grid4earth.eu"
 
-# (title, path under data.grid4earth.eu, date checked in Gridlook #235 build f45b093)
+# (title, description, path under data.grid4earth.eu, date checked in Gridlook)
+# Gridlook shows the title on one truncated line (on a phone ~20 characters),
+# so it starts with what differs between entries; the rest goes in the
+# description, which wraps.
 DATASETS = [
     (
-        "Sentinel-2 L1C converted - S2C 2025-04-12 T32TPS",
+        "S2 L1C - T32TPS 2025-04-12",
+        "converted/sentinel-2-l1c, 13 bands. Pick a level group: 20 (10 m bands), "
+        "19 (20 m bands), 17 (60 m bands).",
         "converted/sentinel-2-l1c/S2C_MSIL1C_20250412T101041_N0511_R022_T32TPS_20250412T134850.zarr",
         "2026-10-11",
     ),
     (
-        "Sentinel-2 L2A converted - S2C 2025-06-13 T31UDQ (Paris)",
+        "S2 L2A - Paris T31UDQ 2025-06-13",
+        "converted/sentinel-2-l2a. Pick a level group: 20 (10 m bands), 19 and 17 "
+        "(native bands plus the ESA resampled copies).",
         "converted/sentinel-2-l2a/S2C_MSIL2A_20250613T104641_N0511_R051_T31UDQ_20250613T134507.zarr",
         "2026-10-11",
     ),
     (
-        "Sentinel-2 L1C multi-resolution (mean-l20-l12) - S2C 2025-04-12 T32TPS",
+        "S2 L1C multires - T32TPS 2025-04-12",
+        "converted/sentinel-2-l1c-multires/mean-l20-l12. Experimental: each band "
+        "starts at its native level, coarser levels are the mean of the finer one. "
+        "Pick the level (12-20) by hand here; switching with the zoom needs "
+        "d70-t/gridlook#235.",
         "converted/sentinel-2-l1c-multires/mean-l20-l12/"
         "S2C_MSIL1C_20250412T101041_N0511_R022_T32TPS_20250412T134850.zarr/measurements/reflectance",
         "2026-10-11",
@@ -49,11 +60,13 @@ def reachable(url):
 
 def main():
     datasets = []
-    for title, path, checked in DATASETS:
+    for title, description, path, checked in DATASETS:
         url = f"{GATEWAY}/{path}"
         if not reachable(url):
             sys.exit(f"not reachable: {url}")
-        datasets.append({"title": title, "url": url, "tag": "healpix"})
+        datasets.append(
+            {"title": title, "description": description, "url": url, "tag": "healpix"}
+        )
         print(f"ok ({checked}): {title}", file=sys.stderr)
     catalog = {"type": "gridlook_catalog", "title": "GRID4EARTH", "datasets": datasets}
     with open(sys.argv[1], "w") as f:
