@@ -1,190 +1,20 @@
 {
   "type": "gridlook_catalog",
-  "title": "GRID4EARTH HEALPix data",
+  "title": "GRID4EARTH",
   "datasets": [
     {
-      "title": "converted-sentinel-2-l1c-multires [mean-l20-l12 L20-L12] S2A MSIL1C 20250516T104651 R051 T31UDQ 20250516T140018 measurements/reflectance",
-      "url": "https://data.grid4earth.eu/converted/sentinel-2-l1c-multires/mean-l20-l12/S2A_MSIL1C_20250516T104651_N0511_R051_T31UDQ_20250516T140018.zarr/measurements/reflectance",
+      "title": "Sentinel-2 L1C converted - S2C 2025-04-12 T32TPS",
+      "url": "https://data.grid4earth.eu/converted/sentinel-2-l1c/S2C_MSIL1C_20250412T101041_N0511_R022_T32TPS_20250412T134850.zarr",
       "tag": "healpix"
     },
     {
-      "title": "converted-sentinel-2-l1c-multires [mean-l20-l12 L20-L12] S2C MSIL1C 20250412T101041 R022 T32TPS 20250412T134850 measurements/reflectance",
+      "title": "Sentinel-2 L2A converted - S2C 2025-06-13 T31UDQ (Paris)",
+      "url": "https://data.grid4earth.eu/converted/sentinel-2-l2a/S2C_MSIL2A_20250613T104641_N0511_R051_T31UDQ_20250613T134507.zarr",
+      "tag": "healpix"
+    },
+    {
+      "title": "Sentinel-2 L1C multi-resolution (mean-l20-l12) - S2C 2025-04-12 T32TPS",
       "url": "https://data.grid4earth.eu/converted/sentinel-2-l1c-multires/mean-l20-l12/S2C_MSIL1C_20250412T101041_N0511_R022_T32TPS_20250412T134850.zarr/measurements/reflectance",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-2-l1c-multires [mean-l20-l12 L20-L12] S2C MSIL1C 20250514T104641 R051 T31UDQ 20250514T143130 measurements/reflectance",
-      "url": "https://data.grid4earth.eu/converted/sentinel-2-l1c-multires/mean-l20-l12/S2C_MSIL1C_20250514T104641_N0511_R051_T31UDQ_20250514T143130.zarr/measurements/reflectance",
-      "tag": "healpix"
-    },
-    {
-      "title": "auxiliary-cams-global-reanalysis-eac4 L6 S00  ADF CAMSA 20180504T210000 20180504T210000 20260619T111832 measurements/aod",
-      "url": "https://data.grid4earth.eu/auxiliary/cams-global-reanalysis-eac4/S00__ADF_CAMSA_20180504T210000_20180504T210000_20260619T111832.zarr/measurements/aod",
-      "tag": "healpix"
-    },
-    {
-      "title": "reprocessed-sentinel-2-l2a L19 S2C MSIL2A 20250412T101041 R022 T32TPS 20250412T154117 conditions/mask/l2a_classification/19",
-      "url": "https://data.grid4earth.eu/reprocessed/sentinel-2-l2a/S2C_MSIL2A_20250412T101041_N0511_R022_T32TPS_20250412T154117.zarr/conditions/mask/l2a_classification/19",
-      "tag": "healpix"
-    },
-    {
-      "title": "reprocessed-sentinel-2-l2a L17 S2C MSIL2A 20250412T101041 R022 T32TPS 20250412T154117 measurements/reflectance/17",
-      "url": "https://data.grid4earth.eu/reprocessed/sentinel-2-l2a/S2C_MSIL2A_20250412T101041_N0511_R022_T32TPS_20250412T154117.zarr/measurements/reflectance/17",
-      "tag": "healpix"
-    },
-    {
-      "title": "reprocessed-sentinel-2-l2a L19 S2C MSIL2A 20250412T101041 R022 T32TPS 20250412T154117 measurements/reflectance/19",
-      "url": "https://data.grid4earth.eu/reprocessed/sentinel-2-l2a/S2C_MSIL2A_20250412T101041_N0511_R022_T32TPS_20250412T154117.zarr/measurements/reflectance/19",
-      "tag": "healpix"
-    },
-    {
-      "title": "reprocessed-sentinel-2-l2a L20 S2C MSIL2A 20250412T101041 R022 T32TPS 20250412T154117 measurements/reflectance/20",
-      "url": "https://data.grid4earth.eu/reprocessed/sentinel-2-l2a/S2C_MSIL2A_20250412T101041_N0511_R022_T32TPS_20250412T154117.zarr/measurements/reflectance/20",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-2-l1c L17 S2A MSIL1C 20250516T104651 R051 20250516T140018 measurements/reflectance/17",
-      "url": "https://data.grid4earth.eu/converted/sentinel-2-l1c/S2A_MSIL1C_20250516T104651_N0511_R051_20250516T140018.zarr/measurements/reflectance/17",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-2-l1c L19 S2A MSIL1C 20250516T104651 R051 20250516T140018 measurements/reflectance/19",
-      "url": "https://data.grid4earth.eu/converted/sentinel-2-l1c/S2A_MSIL1C_20250516T104651_N0511_R051_20250516T140018.zarr/measurements/reflectance/19",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-2-l1c L20 S2A MSIL1C 20250516T104651 R051 20250516T140018 measurements/reflectance/20",
-      "url": "https://data.grid4earth.eu/converted/sentinel-2-l1c/S2A_MSIL1C_20250516T104651_N0511_R051_20250516T140018.zarr/measurements/reflectance/20",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-2-l1c L20 S2A MSIL1C 20250516T104651 R051 T31UDQ 20250516T140018 measurements/reflectance/20",
-      "url": "https://data.grid4earth.eu/converted/sentinel-2-l1c/S2A_MSIL1C_20250516T104651_N0511_R051_T31UDQ_20250516T140018.zarr/measurements/reflectance/20",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-2-l1c L17 S2C MSIL1C 20250412T101041 R022 T32TPS 20250412T134850 measurements/reflectance/17",
-      "url": "https://data.grid4earth.eu/converted/sentinel-2-l1c/S2C_MSIL1C_20250412T101041_N0511_R022_T32TPS_20250412T134850.zarr/measurements/reflectance/17",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-2-l1c L19 S2C MSIL1C 20250412T101041 R022 T32TPS 20250412T134850 measurements/reflectance/19",
-      "url": "https://data.grid4earth.eu/converted/sentinel-2-l1c/S2C_MSIL1C_20250412T101041_N0511_R022_T32TPS_20250412T134850.zarr/measurements/reflectance/19",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-2-l1c L20 S2C MSIL1C 20250412T101041 R022 T32TPS 20250412T134850 measurements/reflectance/20",
-      "url": "https://data.grid4earth.eu/converted/sentinel-2-l1c/S2C_MSIL1C_20250412T101041_N0511_R022_T32TPS_20250412T134850.zarr/measurements/reflectance/20",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-2-l1c L17 S2C MSIL1C 20250514T104641 R051 T31UDQ 20250514T143130 measurements/reflectance/17",
-      "url": "https://data.grid4earth.eu/converted/sentinel-2-l1c/S2C_MSIL1C_20250514T104641_N0511_R051_T31UDQ_20250514T143130.zarr/measurements/reflectance/17",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-2-l1c L19 S2C MSIL1C 20250514T104641 R051 T31UDQ 20250514T143130 measurements/reflectance/19",
-      "url": "https://data.grid4earth.eu/converted/sentinel-2-l1c/S2C_MSIL1C_20250514T104641_N0511_R051_T31UDQ_20250514T143130.zarr/measurements/reflectance/19",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-2-l1c L20 S2C MSIL1C 20250514T104641 R051 T31UDQ 20250514T143130 measurements/reflectance/20",
-      "url": "https://data.grid4earth.eu/converted/sentinel-2-l1c/S2C_MSIL1C_20250514T104641_N0511_R051_T31UDQ_20250514T143130.zarr/measurements/reflectance/20",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-2-l2a L17 S2B MSIL2A 20250522T105619 R094 20250522T121018 measurements/reflectance/17",
-      "url": "https://data.grid4earth.eu/converted/sentinel-2-l2a/S2B_MSIL2A_20250522T105619_N0511_R094_20250522T121018.zarr/measurements/reflectance/17",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-2-l2a L19 S2B MSIL2A 20250522T105619 R094 20250522T121018 measurements/reflectance/19",
-      "url": "https://data.grid4earth.eu/converted/sentinel-2-l2a/S2B_MSIL2A_20250522T105619_N0511_R094_20250522T121018.zarr/measurements/reflectance/19",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-2-l2a L20 S2B MSIL2A 20250522T105619 R094 20250522T121018 measurements/reflectance/20",
-      "url": "https://data.grid4earth.eu/converted/sentinel-2-l2a/S2B_MSIL2A_20250522T105619_N0511_R094_20250522T121018.zarr/measurements/reflectance/20",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-2-l2a L17 S2C MSIL2A 20250613T104641 R051 T31UDQ 20250613T134507 measurements/reflectance/17",
-      "url": "https://data.grid4earth.eu/converted/sentinel-2-l2a/S2C_MSIL2A_20250613T104641_N0511_R051_T31UDQ_20250613T134507.zarr/measurements/reflectance/17",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-2-l2a L19 S2C MSIL2A 20250613T104641 R051 T31UDQ 20250613T134507 measurements/reflectance/19",
-      "url": "https://data.grid4earth.eu/converted/sentinel-2-l2a/S2C_MSIL2A_20250613T104641_N0511_R051_T31UDQ_20250613T134507.zarr/measurements/reflectance/19",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-2-l2a L20 S2C MSIL2A 20250613T104641 R051 T31UDQ 20250613T134507 measurements/reflectance/20",
-      "url": "https://data.grid4earth.eu/converted/sentinel-2-l2a/S2C_MSIL2A_20250613T104641_N0511_R051_T31UDQ_20250613T134507.zarr/measurements/reflectance/20",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-3-slstr-l1-rbt L11 S3A SL 1 RBT    20260107T200924 20260107T201224 20260107T223844 0180 134 342 0900 PS1 O NR 004 psf conditions/geometry_tn",
-      "url": "https://data.grid4earth.eu/converted/sentinel-3-slstr-l1-rbt/S3A_SL_1_RBT____20260107T200924_20260107T201224_20260107T223844_0180_134_342_0900_PS1_O_NR_004_psf.zarr/conditions/geometry_tn",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-3-slstr-l1-rbt L11 S3A SL 1 RBT    20260107T200924 20260107T201224 20260107T223844 0180 134 342 0900 PS1 O NR 004 psf conditions/meteorology",
-      "url": "https://data.grid4earth.eu/converted/sentinel-3-slstr-l1-rbt/S3A_SL_1_RBT____20260107T200924_20260107T201224_20260107T223844_0180_134_342_0900_PS1_O_NR_004_psf.zarr/conditions/meteorology",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-3-slstr-l1-rbt L14 S3A SL 1 RBT    20260107T200924 20260107T201224 20260107T223844 0180 134 342 0900 PS1 O NR 004 psf measurements/anadir",
-      "url": "https://data.grid4earth.eu/converted/sentinel-3-slstr-l1-rbt/S3A_SL_1_RBT____20260107T200924_20260107T201224_20260107T223844_0180_134_342_0900_PS1_O_NR_004_psf.zarr/measurements/anadir",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-3-slstr-l1-rbt L14 S3A SL 1 RBT    20260107T200924 20260107T201224 20260107T223844 0180 134 342 0900 PS1 O NR 004 psf measurements/aoblique",
-      "url": "https://data.grid4earth.eu/converted/sentinel-3-slstr-l1-rbt/S3A_SL_1_RBT____20260107T200924_20260107T201224_20260107T223844_0180_134_342_0900_PS1_O_NR_004_psf.zarr/measurements/aoblique",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-3-slstr-l1-rbt L14 S3A SL 1 RBT    20260107T200924 20260107T201224 20260107T223844 0180 134 342 0900 PS1 O NR 004 psf measurements/bnadir",
-      "url": "https://data.grid4earth.eu/converted/sentinel-3-slstr-l1-rbt/S3A_SL_1_RBT____20260107T200924_20260107T201224_20260107T223844_0180_134_342_0900_PS1_O_NR_004_psf.zarr/measurements/bnadir",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-3-slstr-l1-rbt L14 S3A SL 1 RBT    20260107T200924 20260107T201224 20260107T223844 0180 134 342 0900 PS1 O NR 004 psf measurements/boblique",
-      "url": "https://data.grid4earth.eu/converted/sentinel-3-slstr-l1-rbt/S3A_SL_1_RBT____20260107T200924_20260107T201224_20260107T223844_0180_134_342_0900_PS1_O_NR_004_psf.zarr/measurements/boblique",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-3-slstr-l1-rbt L13 S3A SL 1 RBT    20260107T200924 20260107T201224 20260107T223844 0180 134 342 0900 PS1 O NR 004 psf measurements/fnadir",
-      "url": "https://data.grid4earth.eu/converted/sentinel-3-slstr-l1-rbt/S3A_SL_1_RBT____20260107T200924_20260107T201224_20260107T223844_0180_134_342_0900_PS1_O_NR_004_psf.zarr/measurements/fnadir",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-3-slstr-l1-rbt L13 S3A SL 1 RBT    20260107T200924 20260107T201224 20260107T223844 0180 134 342 0900 PS1 O NR 004 psf measurements/foblique",
-      "url": "https://data.grid4earth.eu/converted/sentinel-3-slstr-l1-rbt/S3A_SL_1_RBT____20260107T200924_20260107T201224_20260107T223844_0180_134_342_0900_PS1_O_NR_004_psf.zarr/measurements/foblique",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-3-slstr-l1-rbt L13 S3A SL 1 RBT    20260107T200924 20260107T201224 20260107T223844 0180 134 342 0900 PS1 O NR 004 psf measurements/inadir",
-      "url": "https://data.grid4earth.eu/converted/sentinel-3-slstr-l1-rbt/S3A_SL_1_RBT____20260107T200924_20260107T201224_20260107T223844_0180_134_342_0900_PS1_O_NR_004_psf.zarr/measurements/inadir",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-3-slstr-l1-rbt L13 S3A SL 1 RBT    20260107T200924 20260107T201224 20260107T223844 0180 134 342 0900 PS1 O NR 004 psf measurements/ioblique",
-      "url": "https://data.grid4earth.eu/converted/sentinel-3-slstr-l1-rbt/S3A_SL_1_RBT____20260107T200924_20260107T201224_20260107T223844_0180_134_342_0900_PS1_O_NR_004_psf.zarr/measurements/ioblique",
-      "tag": "healpix"
-    },
-    {
-      "title": "converted-sentinel-3-olci-l1-efr L15 S3A OL 1 EFR    20260117T092230 20260117T092438 20260118T102513 0128 135 093 1980 PS1 O NT 004 psf measurements",
-      "url": "https://data.grid4earth.eu/converted/sentinel-3-olci-l1-efr/S3A_OL_1_EFR____20260117T092230_20260117T092438_20260118T102513_0128_135_093_1980_PS1_O_NT_004_psf.zarr/measurements",
-      "tag": "healpix"
-    },
-    {
-      "title": "auxiliary-reanalysis-era5-complete L7 S00  ADF ECMWA 20180504T210000 20180504T210000 20260619T111831 measurements/enda",
-      "url": "https://data.grid4earth.eu/auxiliary/reanalysis-era5-complete/S00__ADF_ECMWA_20180504T210000_20180504T210000_20260619T111831.zarr/measurements/enda",
-      "tag": "healpix"
-    },
-    {
-      "title": "auxiliary-reanalysis-era5-complete L7 S00  ADF ECMWA 20180504T210000 20180504T210000 20260619T111831 measurements/oper",
-      "url": "https://data.grid4earth.eu/auxiliary/reanalysis-era5-complete/S00__ADF_ECMWA_20180504T210000_20180504T210000_20260619T111831.zarr/measurements/oper",
       "tag": "healpix"
     }
   ]

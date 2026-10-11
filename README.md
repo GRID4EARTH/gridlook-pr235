@@ -16,10 +16,10 @@ Zoom in on Paris: with "Pick the level from the zoom" on (Variable card), the le
 
 ## Dataset list ("Open dataset")
 
-`static/catalog.json` lists the GRID4EARTH HEALPix data instead of Gridlook's default examples: every STAC item
-except the eopf-mirror ones (one entry per HEALPix group) plus the multi-resolution test stores. Regenerate it with
-`python make_gridlook_catalog.py static/catalog.json` (needs curl and the `grid4earth` AWS profile for the
-multires listing).
+`static/catalog.json` lists GRID4EARTH data instead of Gridlook's default examples: one example store per bucket
+folder (`converted/sentinel-2-l1c`, `converted/sentinel-2-l2a`, `converted/sentinel-2-l1c-multires/mean-l20-l12`),
+each opened in Gridlook and checked to plot before it was added. The list lives in `make_gridlook_catalog.py`;
+regenerate with `python make_gridlook_catalog.py static/catalog.json`.
 
 ## Update
 
