@@ -14,6 +14,13 @@ Discussion: [GRID4EARTH/project-guidelines#21](https://github.com/GRID4EARTH/pro
 
 Zoom in on Paris: with "Pick the level from the zoom" on (Variable card), the level switches from 13 to 20.
 
+## Dataset list ("Open dataset")
+
+`static/catalog.json` lists the GRID4EARTH HEALPix data instead of Gridlook's default examples: every STAC item
+except the eopf-mirror ones (one entry per HEALPix group) plus the multi-resolution test stores. Regenerate it with
+`python make_gridlook_catalog.py static/catalog.json` (needs curl and the `grid4earth` AWS profile for the
+multires listing).
+
 ## Update
 
 Rebuild the pull request and replace the files:
